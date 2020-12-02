@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice_Tray</title>
+</head>
+<body>
+    <h1><b>DICE_TRAY</b></h1>
+            <main>
+                <form action="result.php" method="POST">
+                        <div class="champnbredes">
+                            <label for="nombre_de_des"><b>Nombre de dés</b></label>
+                                <input name="nombre_de_des" id="nombre_de_des" type="number" list="des-list" required>
+                                    <datalist id="des-list">
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                        <option value="4"></option>
+                                        <option value="5"></option>
+                                        <option value="6"></option>
+                                        <option value="7"></option>
+                                        <option value="8"></option>
+                                        <option value="9"></option>
+                                        <option value="10"></option> 
+                                    </datalist> 
+                        </div>  
+                        <div class="champnbrefaces">
+                            <label for="nombre-face_de_des"><b>Nombre de faces</b></label>
+                                <input name="nombre-face_de_des" id="nombre-face_de_des" type="number" list="faces-list" required>
+                                    <datalist id="faces-list">
+                                        <option value="4"></option>
+                                        <option value="6"></option>
+                                        <option value="8"></option>
+                                        <option value="10"></option>
+                                        <option value="12"></option>
+                                        <option value="20"></option>
+                                    </datalist>
+                        </div>
+                        <div class="boutonlancer">
+                            <input type="submit" value="Lancer">
+                        </div>
+                </form>
+            </main>
+</body>
+</html>

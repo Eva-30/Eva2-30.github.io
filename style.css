@@ -1,0 +1,69 @@
+ *{
+    box-sizing: border-box;
+  } 
+  main {
+    min-height: 100vh;
+    background-image: url(cubes.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: black;
+    padding: 10px;
+  }
+h1{
+    font-family: Bradley Hand, cursive;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: inset 0 0 20px;
+    border-radius: 20px;  
+}
+body{
+    border: solid 4px black;
+    background-color: gray; 
+}
+.champnbredes{
+    border: solid 2px gray;
+    border-radius: 20px;
+    box-shadow: black 0 0 20px;
+    padding: 5px;
+    position: relative;
+    top: 150px;
+}
+.champnbrefaces{
+    border: solid 2px gray;
+    border-radius: 20px;
+    box-shadow: black 0 0 20px;
+    padding: 5px;
+    position: relative;
+    top: 200px;
+}
+.boutonlancer{
+  position: relative;
+  top: 330px;
+}
+.resultatmultiple{
+  box-shadow: black 0 0 15px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+p{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.boutonretour{
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+}
+.boutonrelancer{
+  position: fixed;
+  bottom: 50px;
+  left: 80px;
+}
+
+
